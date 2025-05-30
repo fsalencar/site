@@ -3544,6 +3544,26 @@ input, select, textarea {
 				margin: 0; /* Remove margens */
 				line-height: 1.5; /* Ajusta o espaçamento entre linhas */
 			}
+
+			#four .box.alt .row section {
+				background-color: transparent; /* Remove fundo branco */
+				text-align: center; /* Centraliza o conteúdo */
+				padding: 1em; /* Ajusta o espaçamento interno */
+			}
+			
+			#four .box.alt .row section h3,
+			#four .box.alt .row section p {
+				color: #000; /* Ajusta a cor do texto */
+				margin: 0; /* Remove margens */
+				line-height: 1.5; /* Ajusta o espaçamento entre linhas */
+			}
+			
+			#four .box.alt .row section span.icon {
+				background-color: #272833; /* Ajusta o fundo dos ícones */
+				border-radius: 50%; /* Torna os ícones circulares */
+				padding: 1em; /* Ajusta o espaçamento interno dos ícones */
+				display: inline-block;
+			}
 			/* #banner .content header {
 			#	display: inline-block;
 			#	vertical-align: middle;
