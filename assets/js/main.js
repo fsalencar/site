@@ -263,5 +263,5 @@ document.addEventListener("DOMContentLoaded", function () {
 	items[currentIndex].classList.add("active");
   
 	// Alterna as imagens a cada 5 segundos
-	setInterval(showNextImage, 5000);
+	setInterval(showNextImage, 4000);
   });

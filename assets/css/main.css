@@ -4280,7 +4280,7 @@ input, select, textarea {
 	position: relative;
 	width: 100%;
 	overflow: hidden;
-	height: 500px; /* Altura fixa para evitar mudanças no layout */
+	height: 500px; /* Altura fixa */
   }
   
   /* Ajusta as imagens para ocupar todo o espaço do contêiner */
@@ -4301,9 +4301,10 @@ input, select, textarea {
 	display: block; /* Exibe apenas a imagem ativa */
   }
   
-  /* Ajuste para telas maiores 
+  /* Ajuste para telas maiores */
   @media screen and (min-width: 981px) {
 	.carousel-item img {
-	  max-height: 500px; /* Ajusta a altura máxima para o desktop 
-	  object-fit: cover; /* Garante que a imagem se ajuste ao container 
-	}*/
+	  max-height: 500px; /* Ajusta a altura máxima para o desktop */
+	  object-fit: cover; /* Garante que a imagem se ajuste ao container */
+	}
+  }
