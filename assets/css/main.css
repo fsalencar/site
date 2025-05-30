@@ -4178,3 +4178,29 @@ input, select, textarea {
 					}
 
 	}
+
+	/* Remove fundo branco de todas as seções */
+	section {
+		background-color: transparent !important; /* Garante que o fundo seja transparente */
+	}
+
+	/* Remove fundo branco de elementos específicos */
+	section .box.alt .row section {
+		background-color: transparent !important; /* Remove fundo branco de seções internas */
+	}
+
+	/* Ajusta o fundo dos ícones */
+	section .box.alt .row section span.icon {
+		background-color: #272833; /* Ajusta o fundo dos ícones */
+		border-radius: 50%; /* Torna os ícones circulares */
+		padding: 1em; /* Ajusta o espaçamento interno dos ícones */
+		display: inline-block;
+	}
+
+	/* Ajusta o texto para contraste */
+	section .box.alt .row section h3,
+	section .box.alt .row section p {
+		color: #000; /* Ajusta a cor do texto */
+		margin: 0; /* Remove margens */
+		line-height: 1.5; /* Ajusta o espaçamento entre linhas */
+	}
