@@ -82,9 +82,10 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
+/* Fundo geral */
 	html, body {
-		background: #F5F5F5;
-    	color: #455A64;
+		background: #F5F5F5; /* Cinza claro */
+		color: #455A64; /* Cinza escuro */
 	}
 
 	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -116,26 +117,25 @@ input, select, textarea {
 		text-decoration: none;
 	}
 
-		a:hover {
-			color: #81C784 !important;
+			a:hover {
+			color: #2E7D32; /* Verde mais escuro */
 			border-bottom-color: transparent;
 		}
-	
 	.button {
-		background: #2E7D32;
-		color: #fff;
+		background: #81C784; /* Verde-claro */
+		color: #FFFFFF; /* Branco */
 	}
 
 	.button:hover {
-		background: #81C784;
+		background: #2E7D32; /* Verde mais escuro */
 	}
 
 	section, header, footer {
-		background: #FFFFFF;
+		background: #FFFFFF; /* Branco */
 	}
 
 	strong, b {
-		color: #ffffff;
+		color: #455A64; /* Cinza escuro */
 		font-weight: 300;
 	}
 
@@ -148,7 +148,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #455A64; /* Cinza escuro */
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -3601,11 +3601,20 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #272833;
+		background: #455A64; /* Cinza escuro */
+		color: #FFFFFF; /* Branco */
 		padding: 6em 0;
 		text-align: center;
 	}
 
+		#footer .button {
+			background: #81C784; /* Verde-claro */
+			color: #FFFFFF; /* Branco */
+		}
+
+		#footer .button:hover {
+			background: #2E7D32; /* Verde mais escuro */
+		  }
 		#footer .icons .icon.alt {
 			text-decoration: none;
 		}
@@ -4281,7 +4290,7 @@ input, select, textarea {
 	width: 100%;
 	overflow: hidden;
 	height: 500px; /* Altura fixa */
-	background-color: #272833; /* Adiciona um fundo para evitar que fique branco */
+ 	background-color: #F5F5F5; /* Cinza claro */
   }
   
   /* Ajusta as imagens para ocupar todo o espaço do contêiner */
