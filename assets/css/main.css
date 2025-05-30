@@ -4275,13 +4275,31 @@ input, select, textarea {
 	}
 
 
-/* Define uma altura fixa para o contêiner do carrossel */
-.carousel {
+/* Ajusta o layout da seção #three */
+#three.spotlight {
+	position: relative;
+	display: flex; /* Usa flexbox para organizar o carrossel e o texto lado a lado ou em pilha */
+	flex-wrap: wrap; /* Permite que os elementos se ajustem em telas menores */
+	align-items: center; /* Centraliza os elementos verticalmente */
+	padding: 2em; /* Adiciona espaçamento interno */
+  }
+  
+  /* Ajusta o carrossel para ocupar metade da seção */
+  #three .carousel {
+	flex: 1; /* Faz o carrossel ocupar metade da largura disponível */
 	position: relative;
 	width: 100%;
-	overflow: hidden;
 	height: 500px; /* Altura fixa */
 	background-color: #272833; /* Adiciona um fundo para evitar que fique branco */
+	overflow: hidden;
+  }
+  
+  /* Ajusta o texto para ocupar metade da seção */
+  #three .content {
+	flex: 1; /* Faz o texto ocupar metade da largura disponível */
+	position: relative;
+	z-index: 2; /* Garante que o texto fique acima do carrossel */
+	padding: 2em; /* Adiciona espaçamento interno */
   }
   
   /* Ajusta as imagens para ocupar todo o espaço do contêiner */
@@ -4304,8 +4322,17 @@ input, select, textarea {
   
   /* Ajuste para telas maiores */
   @media screen and (min-width: 981px) {
-	.carousel-item img {
-	  max-height: 500px; /* Ajusta a altura máxima para o desktop */
-	  object-fit: cover; /* Garante que a imagem se ajuste ao container */
+	#three.spotlight {
+	  flex-direction: row; /* Organiza o carrossel e o texto lado a lado em telas maiores */
+	}
+  }
+  
+  @media screen and (max-width: 980px) {
+	#three.spotlight {
+	  flex-direction: column; /* Empilha o carrossel e o texto em telas menores */
+	}
+  
+	#three .carousel {
+	  height: auto; /* Ajusta a altura do carrossel para telas menores */
 	}
   }
