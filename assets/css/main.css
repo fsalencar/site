@@ -3510,10 +3510,30 @@ input, select, textarea {
 			z-index: 1;
 		}
 
+
+			/* Ajusta o estilo do banner */
 			#banner .content header {
-				display: inline-block;
-				vertical-align: middle;
+				background-color: transparent; /* Remove fundo branco */
+				padding: 0; /* Remove espaçamento extra */
+				margin: 0 auto; /* Centraliza o conteúdo */
+				text-align: center; /* Centraliza o texto */
 			}
+
+			#banner .content header h2,
+			#banner .content header p {
+				color: #ffffff; /* Ajusta a cor do texto */
+				margin: 0; /* Remove margens */
+				line-height: 1.5; /* Ajusta o espaçamento entre linhas */
+			}
+
+			#banner .content {
+				text-align: center; /* Centraliza o conteúdo */
+				padding: 2em; /* Ajusta o espaçamento interno */
+			}
+			/* #banner .content header {
+			#	display: inline-block;
+			#	vertical-align: middle;
+			#}
 
 				#banner .content header h2 {
 					font-size: 2.5em;
@@ -3523,7 +3543,7 @@ input, select, textarea {
 				#banner .content header p {
 					margin: 0.5em 0 0 0;
 					top: 0;
-				}
+				} */
 
 			#banner .content .image {
 				border-radius: 100%;
