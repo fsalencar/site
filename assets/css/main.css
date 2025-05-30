@@ -4275,31 +4275,35 @@ input, select, textarea {
 	}
 
 
-/* Estilo para o carrossel */
+/* Define uma altura fixa para o contêiner do carrossel */
 .carousel {
 	position: relative;
 	width: 100%;
 	overflow: hidden;
+	height: 500px; /* Altura fixa para evitar mudanças no layout */
   }
   
-  .carousel-item {
-	width: 100%;
-	display: none; /* Oculta todas as imagens inicialmente */
-  }
-  
+  /* Ajusta as imagens para ocupar todo o espaço do contêiner */
   .carousel-item img {
 	width: 100%;
-	height: auto;
+	height: 100%; /* Garante que as imagens ocupem toda a altura do contêiner */
+	object-fit: cover; /* Mantém o aspecto visual sem distorções */
+  }
+  
+  /* Exibe apenas a imagem ativa */
+  .carousel-item {
+	width: 100%;
+	height: 100%; /* Mantém a altura fixa */
+	display: none; /* Oculta todas as imagens inicialmente */
   }
   
   .carousel-item.active {
 	display: block; /* Exibe apenas a imagem ativa */
   }
   
-  /* Ajuste para telas maiores */
+  /* Ajuste para telas maiores 
   @media screen and (min-width: 981px) {
 	.carousel-item img {
-	  max-height: 500px; /* Ajusta a altura máxima para o desktop */
-	  object-fit: cover; /* Garante que a imagem se ajuste ao container */
-	}
-  }
+	  max-height: 500px; /* Ajusta a altura máxima para o desktop 
+	  object-fit: cover; /* Garante que a imagem se ajuste ao container 
+	}*/
