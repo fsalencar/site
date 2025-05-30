@@ -4275,7 +4275,7 @@ input, select, textarea {
 	}
 
 
-	/* Estilo para o carrossel */
+/* Estilo para o carrossel */
 .carousel {
 	position: relative;
 	width: 100%;
@@ -4294,4 +4294,12 @@ input, select, textarea {
   
   .carousel-item.active {
 	display: block; /* Exibe apenas a imagem ativa */
+  }
+  
+  /* Ajuste para telas maiores */
+  @media screen and (min-width: 981px) {
+	.carousel-item img {
+	  max-height: 500px; /* Ajusta a altura máxima para o desktop */
+	  object-fit: cover; /* Garante que a imagem se ajuste ao container */
+	}
   }
