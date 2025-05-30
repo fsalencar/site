@@ -3564,7 +3564,7 @@ input, select, textarea {
 				padding: 1em; /* Ajusta o espaçamento interno dos ícones */
 				display: inline-block;
 			}
-			/* #banner .content header {
+			 #banner .content header {
 			#	display: inline-block;
 			#	vertical-align: middle;
 			#}
@@ -3577,7 +3577,7 @@ input, select, textarea {
 				#banner .content header p {
 					margin: 0.5em 0 0 0;
 					top: 0;
-				} */
+				} 
 
 			#banner .content .image {
 				border-radius: 100%;
