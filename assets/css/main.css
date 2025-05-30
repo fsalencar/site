@@ -3565,9 +3565,9 @@ input, select, textarea {
 				display: inline-block;
 			}
 			 #banner .content header {
-			#	display: inline-block;
-			#	vertical-align: middle;
-			#}
+			/* display: inline-block; */
+				vertical-align: middle;
+			}
 
 				#banner .content header h2 {
 					font-size: 2.5em;
@@ -4277,11 +4277,12 @@ input, select, textarea {
 
 /* Define uma altura fixa para o contêiner do carrossel */
 .carousel {
-	position: relative;
-	width: 100%;
-	overflow: hidden;
-	height: 500px; /* Altura fixa */
-  }
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 500px; /* Altura fixa */
+    background-color: #272833; /* Adiciona um fundo para evitar que fique branco */
+} /* Certifique-se de que a chave foi fechada corretamente */
   
   /* Ajusta as imagens para ocupar todo o espaço do contêiner */
   .carousel-item img {
