@@ -4205,58 +4205,67 @@ input, select, textarea {
 		line-height: 1.5; /* Ajusta o espaçamento entre linhas */
 	}
 
-	/* Estilo para a seção de contato */
-	#contato {
-		padding: 4em 2em;
-		text-align: center;
-		background-color: #f5f5f5; /* Ajuste o fundo conforme necessário */
-	}
-	
-	#contato h2 {
-		font-size: 2em;
-		margin-bottom: 1em;
-		color: #272833;
-	}
-	
-	#contato .fields {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		gap: 1em;
-	}
-	
-	#contato .field {
-		flex: 1 1 45%;
-		max-width: 45%;
-	}
-	
-	#contato .field label {
-		display: block;
-		margin-bottom: 0.5em;
-		color: #272833;
-	}
-	
-	#contato .field input,
-	#contato .field textarea {
-		width: 100%;
-		padding: 0.75em;
-		border: 1px solid #ccc;
-		border-radius: 4px;
-	}
-	
-	#contato .actions {
-		margin-top: 2em;
-	}
-	
-	#contato .actions .primary {
-		background-color: #272833;
-		color: #fff;
-		padding: 0.75em 2em;
-		border: none;
-		border-radius: 4px;
-		cursor: pointer;
-	}
-	
-	#contato .actions .primary:hover {
-		background-color: #455a64;
-	}
+/* Ajusta o layout da seção de contato */
+#contato {
+	padding: 4em 2em;
+	text-align: center;
+	background-color: #f5f5f5; /* Fundo claro */
+	margin-top: 2em; /* Espaçamento acima */
+  }
+  
+  #contato h2 {
+	font-size: 2em;
+	margin-bottom: 1em;
+	color: #272833;
+  }
+  
+  #contato .fields {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 1em;
+	max-width: 800px; /* Limita a largura máxima */
+	margin: 0 auto; /* Centraliza os campos */
+  }
+  
+  #contato .field {
+	flex: 1 1 45%;
+	max-width: 45%;
+  }
+  
+  #contato .field label {
+	display: block;
+	margin-bottom: 0.5em;
+	color: #272833;
+  }
+  
+  #contato .field input,
+  #contato .field textarea {
+	width: 100%;
+	padding: 0.75em;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 1em;
+  }
+  
+  #contato .field textarea {
+	resize: vertical; /* Permite redimensionar verticalmente */
+  }
+  
+  #contato .actions {
+	margin-top: 2em;
+  }
+  
+  #contato .actions .primary {
+	background-color: #272833;
+	color: #fff;
+	padding: 0.75em 2em;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 1em;
+  }
+  
+  #contato .actions .primary:hover {
+	background-color: #455a64;
+  }
