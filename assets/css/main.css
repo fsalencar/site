@@ -4273,3 +4273,25 @@ input, select, textarea {
 	#contato .actions .primary:hover {
 		background-color: #455a64;
 	}
+
+
+	/* Estilo para o carrossel */
+.carousel {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+  }
+  
+  .carousel-item {
+	width: 100%;
+	display: none; /* Oculta todas as imagens inicialmente */
+  }
+  
+  .carousel-item img {
+	width: 100%;
+	height: auto;
+  }
+  
+  .carousel-item.active {
+	display: block; /* Exibe apenas a imagem ativa */
+  }

@@ -248,3 +248,20 @@
 			._parallax();
 
 })(jQuery);
+
+document.addEventListener("DOMContentLoaded", function () {
+	const items = document.querySelectorAll(".carousel-item");
+	let currentIndex = 0;
+  
+	function showNextImage() {
+	  items[currentIndex].classList.remove("active");
+	  currentIndex = (currentIndex + 1) % items.length; // Alterna para a próxima imagem
+	  items[currentIndex].classList.add("active");
+	}
+  
+	// Exibe a primeira imagem inicialmente
+	items[currentIndex].classList.add("active");
+  
+	// Alterna as imagens a cada 5 segundos
+	setInterval(showNextImage, 5000);
+  });
