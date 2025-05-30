@@ -4277,12 +4277,12 @@ input, select, textarea {
 
 /* Define uma altura fixa para o contêiner do carrossel */
 .carousel {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    height: 500px; /* Altura fixa */
-    background-color: #272833; /* Adiciona um fundo para evitar que fique branco */
-} /* Certifique-se de que a chave foi fechada corretamente */
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	height: 500px; /* Altura fixa */
+	background-color: #272833; /* Adiciona um fundo para evitar que fique branco */
+  }
   
   /* Ajusta as imagens para ocupar todo o espaço do contêiner */
   .carousel-item img {
