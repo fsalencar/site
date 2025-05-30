@@ -4283,12 +4283,15 @@ input, select, textarea {
 	height: 500px; /* Altura fixa */
 	background-color: #272833; /* Adiciona um fundo para evitar que fique branco */
   }
+  
   /* Faz o carrossel ocupar toda a área da seção */
-#two.spotlight {
+  #two.spotlight {
 	position: relative;
 	padding: 0; /* Remove o espaçamento interno */
+	background: none; /* Remove qualquer plano de fundo existente */
   }
   
+  /* Ajusta o carrossel para ficar acima do fundo */
   #two .carousel {
 	position: absolute;
 	top: 0;
@@ -4298,9 +4301,13 @@ input, select, textarea {
 	z-index: 1; /* Coloca o carrossel no fundo */
   }
   
+  /* Ajusta o texto para ficar acima do carrossel */
   #two .content {
 	position: relative;
 	z-index: 2; /* Garante que o texto fique acima do carrossel */
+	background: rgba(0, 0, 0, 0.5); /* Adiciona um fundo semitransparente para contraste */
+	color: #fff; /* Ajusta a cor do texto */
+	padding: 2em; /* Adiciona espaçamento interno */
   }
   
   /* Ajusta as imagens para ocupar todo o espaço do contêiner */
