@@ -3343,7 +3343,7 @@
 		text-align: center;
 	}
 
-		#cta h2, #cta h3, #cta h4, #cta h5, #cta h6 {
+		#cta h2, #cta h3, #cta h4, #cta h5, #cta h6, cta p {
 			color: inherit;
  			text-shadow: 0 2px 8px #222, 0 1px 0 #222;		
 		}
