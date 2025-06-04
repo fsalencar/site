@@ -3338,14 +3338,14 @@
 
 	#cta {
 		background: #c7e0f1;
-		color: #f9e6df;
+		color: #0D47A1;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
 	}
 
-		#cta h2, #cta h3, #cta h4, #cta h5, #cta h6, cta p {
+		#cta h2, #cta h3, #cta h4, #cta h5, #cta h6, #cta p {
 			color: inherit;
- 			text-shadow:  0 1px 0 #222;		
+
 		}
 
 		#cta form {
