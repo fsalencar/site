@@ -3198,7 +3198,7 @@
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
 		backdrop-filter: blur(50px);         /* Efeito de desfoque */
-		color: #fff;
+		color: #C29D52;
 		padding: 12em 0 20em 0;
 		text-align: center;
 	}
@@ -3208,7 +3208,7 @@
 		}
 
 		#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
-			color: #0D47A1;
+			color: #C29D52 ;
 		}
 
 		#banner h2 {
@@ -3221,7 +3221,7 @@
 		#banner p {
 			font-size: 1.25em;
 			margin-bottom: 1.75em;
-			color:#0D47A1;
+			color:#C29D52 ;
 
 		}
 
