@@ -3221,6 +3221,9 @@
 		#banner p {
 			font-size: 1.25em;
 			margin-bottom: 1.75em;
+			color:#444;
+			text-shadow: 0 2px 8px #fff8, 0 1px 0 #fff4; /* Opcional: melhora contraste em fundos escuros */
+
 		}
 
 		#banner input[type="submit"],
