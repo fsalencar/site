@@ -3208,7 +3208,7 @@
 		}
 
 		#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
-			color: #fff;
+			color: #505050;
 		}
 
 		#banner h2 {
@@ -3221,7 +3221,7 @@
 		#banner p {
 			font-size: 1.25em;
 			margin-bottom: 1.75em;
-			color:#444;
+			color:#505050;
 			text-shadow: 0 2px 8px #fff8, 0 1px 0 #fff4; /* Opcional: melhora contraste em fundos escuros */
 
 		}
