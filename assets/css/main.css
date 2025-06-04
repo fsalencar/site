@@ -80,20 +80,28 @@
 
 /* Basic */
 
-		/* Banner personalizado centralizado */
-		.custom-banner {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			margin: 1.5em 0;
-		}
+.custom-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5em 0 0.5em 0; /* menos espaço acima e abaixo */
+    padding: 0;
+    background: none;
+    border: none;
+    box-shadow: none;
+}
 
-		.custom-banner img {
-			max-width: 320px; /* ajuste conforme necessário */
-			width: 100%;
-			height: auto;
-			opacity: 0.85; /* deixa a imagem levemente transparente */
-		}
+.custom-banner img {
+    max-width: 320px;
+    width: 100%;
+    height: auto;
+    opacity: 0.85;
+    background: none;
+    border: none;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+}
 
 
 
