@@ -3197,6 +3197,7 @@
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
+		backdrop-filter: blur(8px);         /* Efeito de desfoque */
 		color: #fff;
 		padding: 12em 0 20em 0;
 		text-align: center;
