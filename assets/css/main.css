@@ -3934,3 +3934,35 @@
 			}
 
 	}
+
+	#contato input[type="text"],
+	#contato input[type="email"],
+	#contato textarea {
+    background: #f5f4f4;
+    color: #222; /* cor do texto, ajuste se quiser */
+    border: 1px solid #bdbdbd; /* opcional: borda sutil */
+    box-shadow: none;          /* remove sombra se houver */
+}
+
+#contato input::placeholder,
+#contato textarea::placeholder {
+    color: #888;      /* cor desejada */
+    opacity: 1;       /* 1 é o valor correto para totalmente visível */
+}
+
+/* Para compatibilidade com todos os navegadores */
+#contato input::-webkit-input-placeholder,
+#contato textarea::-webkit-input-placeholder {
+    color: #0e0d0d;
+    opacity: 1;
+}
+#contato input:-ms-input-placeholder,
+#contato textarea:-ms-input-placeholder {
+    color: #0e0d0d;
+    opacity: 1;
+}
+#contato input::-ms-input-placeholder,
+#contato textarea::-ms-input-placeholder {
+    color: #0e0d0d;
+    opacity: 1;
+}
