@@ -80,6 +80,23 @@
 
 /* Basic */
 
+		/* Banner personalizado centralizado */
+		.custom-banner {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: 1.5em 0;
+		}
+
+		.custom-banner img {
+			max-width: 320px; /* ajuste conforme necessário */
+			width: 100%;
+			height: auto;
+			opacity: 0.85; /* deixa a imagem levemente transparente */
+		}
+
+
+
 	@-ms-viewport {
 		width: device-width;
 	}
