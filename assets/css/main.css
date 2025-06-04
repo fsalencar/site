@@ -103,7 +103,12 @@
     padding: 0;
 }
 
-
+.custom-icon {
+  width: 3em;
+  height: 3em;
+  display: block;
+  margin: 0 auto 1em auto;
+}
 
 	@-ms-viewport {
 		width: device-width;
