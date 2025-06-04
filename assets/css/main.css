@@ -3193,7 +3193,7 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("images/overlay.png"), url("../../images/banner3.jpg");
+		background-image: url("images/overlay.png"), url("../../images/banner4.jpg");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
@@ -3337,7 +3337,7 @@
 /* CTA */
 
 	#cta {
-		background: #e89980;
+		background: #80e1e8;
 		color: #f9e6df;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
